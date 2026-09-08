@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odonto Petersen</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Garamond, sans-serif;
+    background-color: #f4c2c2; /* rosa-chá */
+    color: #333333;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    box-shadow: 0 20px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #d63384; /* tom rosa */
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d63384;
+}
+
+.hero {
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    max-width: 235px; /* tamanho ajustado do logo */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto; /* centraliza e dá espaço abaixo */
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #444;
+}
+
+.info {
+    background-color: #fff;
+    margin: 35px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+    nav a {
+        margin: 0 8px;
+        font-size: 0.9em;
+    }
+    .hero h2 {
+        font-size: 1.5em;
+    }
+    .info p {
+        font-size: 1em;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Odonto Petersen</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <a href="#endereco">Endereço</a>
+        </nav>
+    </header>
+
+   <section class="hero">
+        <!-- Logo dentro da pasta img -->
+        <img src="img/LogoPetersen.png" alt="Logo da Odonto Petersen">
+        <h2>"Seu sorriso é a nossa felicidade"</h2>
+    </section>
+
+    <section id="sobre" class="info">
+        <h3>Sobre a Clínica</h3>
+        <p>A Odonto Petersen é uma clínica odontológica dedicada a cuidar do seu sorriso com carinho e profissionalismo.</p>
+    </section>
+
+    <section id="contato" class="info">
+        <h3>Contato</h3>
+        <p><strong>Telefone/WhatsApp:</strong> <a href="tel:42991617231">42 99161-7231</a></p>
+        <p><strong>Email:</strong> <a href="mailto:KauanaFerreira@gmail.com">KauanaFerreira@gmail.com</a></p>
+    </section>
+
+    <section id="endereco" class="info">
+        <h3>Endereço</h3>
+        <p>Rua João Ditzel, nº 6667<br>Ponta Grossa - Paraná</p>
+    </section>
+
+    <footer>
+        © 2026 Odonto Petersen - Todos os direitos reservados
+    </footer>
+</body>
+</html>
